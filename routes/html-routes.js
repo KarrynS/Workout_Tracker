@@ -1,12 +1,11 @@
-const path = require("path");
-const { ppid } = require("process");
+const router = require("express").Router();
 
-module.exports = function(app) {
-    app.get("exercise", function(req,res) {
-        res.sendFile(path.join(__dirname, "..pubic.exercise.html"));
-    });
+router.get("/exercise", (req, res) => {
+    res.redirect("/exercise.html");
+})
 
-    app.get("/stats", function(req,res) {
-        res.sendFile(path.join(__dirname, "../public/stats.html"));
-    });
-}
+router.get("/stats", (req, res) => {
+    res.redirect("/stats.html");
+})
+
+module.exports = router;

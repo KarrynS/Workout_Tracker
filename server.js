@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/workouttracker", {
+  process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
@@ -21,7 +21,6 @@ app.use(require("./routes/api-routes.js"));
 app.use(require("./routes/html-routes.js"));
 
 app.listen(PORT, () => {
-  console.log(`App running on port ${PORT}!`);
   console.log(
     "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
     PORT,
