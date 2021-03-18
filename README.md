@@ -16,7 +16,7 @@ Technologies utilised: MongoDB, Mongoose, Express and deployed to Heroku.
 Download the package and run 'npm install' in the command line to install all dependencies. Run 'node server' to start the application. 
 
 ## Usage
-[Link to deployed site at Heroku] ()
+[Link to deployed site at Heroku] (https://sleepy-caverns-69826.herokuapp.com/)
 
 Application should appear as below:
 <img src="./public/WorkoutTrackerHome.png"/>
