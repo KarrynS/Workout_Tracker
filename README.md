@@ -10,11 +10,13 @@
 ## Description
 A workout tracker that allows you to create and track daily workouts. Dashboard allows you to view your statistics and see total duration of workouts. 
 
+Technologies utilised: MongoDB, Mongoose, Express and deployed to Heroku. 
+
 ## Installation
 Download the package and run 'npm install' in the command line to install all dependencies. Run 'node server' to start the application. 
 
 ## Usage
-Deployed link
+[Link to deployed site at Heroku] ()
 
 Application should appear as below:
 <img src="./public/WorkoutTrackerHome.png"/>
